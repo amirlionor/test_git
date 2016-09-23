@@ -1,12 +1,12 @@
-<?php /* Smarty version Smarty-3.1.20, created on 2016-09-23 09:46:45
-         compiled from "/var/www/html/Mythelia/templates/frontOffice/default/index.html" */ ?>
-<?php /*%%SmartyHeaderCode:180075931557e4dde52930e0-26116033%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /* Smarty version Smarty-3.1.20, created on 2016-09-23 09:47:07
+         compiled from "/var/www/html/Mythelia/templates/frontOffice/default/login.html" */ ?>
+<?php /*%%SmartyHeaderCode:153811565257e4ddfb39dcb2-04050568%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
-    '6a14a208c305ee24735d3b668d49e5b13cc9b56f' => 
+    'de25134005ffc0192d6f687f9d34ba8b25163efa' => 
     array (
-      0 => '/var/www/html/Mythelia/templates/frontOffice/default/index.html',
+      0 => '/var/www/html/Mythelia/templates/frontOffice/default/login.html',
       1 => 1463578323,
       2 => 'file',
     ),
@@ -17,7 +17,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '180075931557e4dde52930e0-26116033',
+  'nocache_hash' => '153811565257e4ddfb39dcb2-04050568',
   'function' => 
   array (
   ),
@@ -43,9 +43,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.20',
-  'unifunc' => 'content_57e4dde5479212_12236972',
+  'unifunc' => 'content_57e4ddfb651aa7_92590720',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_57e4dde5479212_12236972')) {function content_57e4dde5479212_12236972($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_truncate')) include '/var/www/html/Mythelia/vendor/smarty/smarty/libs/plugins/modifier.truncate.php';
+<?php if ($_valid && !is_callable('content_57e4ddfb651aa7_92590720')) {function content_57e4ddfb651aa7_92590720($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_truncate')) include '/var/www/html/Mythelia/vendor/smarty/smarty/libs/plugins/modifier.truncate.php';
 ?><!doctype html>
 <!--
  ______   __  __     ______     __         __     ______
@@ -76,21 +76,22 @@ GNU General Public License : http://www.gnu.org/licenses/
 <?php  $_config = new Smarty_Internal_Config('variables.conf', $_smarty_tpl->smarty, $_smarty_tpl);$_config->loadConfigVars(null, 'local'); ?>
 
 
-    <?php ob_start();?><?php echo $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['config'][0][0]->configDataAccess(array('key'=>"store_name"),$_smarty_tpl);?>
-<?php $_tmp1=ob_get_clean();?><?php $_smarty_tpl->tpl_vars['page_title'] = new Smarty_variable($_tmp1, null, 0);?>
+    <?php ob_start();?><?php echo $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['intl'][0][0]->translate(array('l'=>"Login"),$_smarty_tpl);?>
+<?php $_tmp1=ob_get_clean();?><?php ob_start();?><?php echo $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['url'][0][0]->generateUrlFunction(array('path'=>"/login"),$_smarty_tpl);?>
+<?php $_tmp2=ob_get_clean();?><?php $_smarty_tpl->tpl_vars['breadcrumbs'] = new Smarty_variable(array(array('title'=>$_tmp1,'url'=>$_tmp2)), null, 0);?>
 
 <?php ob_start();?><?php echo $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['config'][0][0]->configDataAccess(array('key'=>"store_name"),$_smarty_tpl);?>
-<?php $_tmp2=ob_get_clean();?><?php $_smarty_tpl->tpl_vars["store_name"] = new Smarty_variable($_tmp2, null, 0);?>
+<?php $_tmp3=ob_get_clean();?><?php $_smarty_tpl->tpl_vars["store_name"] = new Smarty_variable($_tmp3, null, 0);?>
 <?php ob_start();?><?php echo $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['config'][0][0]->configDataAccess(array('key'=>"store_description"),$_smarty_tpl);?>
-<?php $_tmp3=ob_get_clean();?><?php $_smarty_tpl->tpl_vars["store_description"] = new Smarty_variable($_tmp3, null, 0);?>
+<?php $_tmp4=ob_get_clean();?><?php $_smarty_tpl->tpl_vars["store_description"] = new Smarty_variable($_tmp4, null, 0);?>
 <?php ob_start();?><?php echo $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['lang'][0][0]->langDataAccess(array('attr'=>"code"),$_smarty_tpl);?>
-<?php $_tmp4=ob_get_clean();?><?php $_smarty_tpl->tpl_vars["lang_code"] = new Smarty_variable($_tmp4, null, 0);?>
+<?php $_tmp5=ob_get_clean();?><?php $_smarty_tpl->tpl_vars["lang_code"] = new Smarty_variable($_tmp5, null, 0);?>
 <?php ob_start();?><?php echo $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['lang'][0][0]->langDataAccess(array('attr'=>"locale"),$_smarty_tpl);?>
-<?php $_tmp5=ob_get_clean();?><?php $_smarty_tpl->tpl_vars["lang_locale"] = new Smarty_variable($_tmp5, null, 0);?>
+<?php $_tmp6=ob_get_clean();?><?php $_smarty_tpl->tpl_vars["lang_locale"] = new Smarty_variable($_tmp6, null, 0);?>
 <?php if (!$_smarty_tpl->tpl_vars['store_name']->value) {?><?php ob_start();?><?php echo $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['intl'][0][0]->translate(array('l'=>'Thelia V2'),$_smarty_tpl);?>
-<?php $_tmp6=ob_get_clean();?><?php $_smarty_tpl->tpl_vars["store_name"] = new Smarty_variable($_tmp6, null, 0);?><?php }?>
+<?php $_tmp7=ob_get_clean();?><?php $_smarty_tpl->tpl_vars["store_name"] = new Smarty_variable($_tmp7, null, 0);?><?php }?>
 <?php if (!$_smarty_tpl->tpl_vars['store_description']->value) {?><?php ob_start();?><?php echo TheliaSmarty\Template\SmartyParser::theliaEscape($_smarty_tpl->tpl_vars['store_name']->value,$_smarty_tpl);?>
-<?php $_tmp7=ob_get_clean();?><?php $_smarty_tpl->tpl_vars["store_description"] = new Smarty_variable($_tmp7, null, 0);?><?php }?>
+<?php $_tmp8=ob_get_clean();?><?php $_smarty_tpl->tpl_vars["store_description"] = new Smarty_variable($_tmp8, null, 0);?><?php }?>
 
 
 <!--[if lt IE 7 ]><html class="no-js oldie ie6" lang="<?php echo TheliaSmarty\Template\SmartyParser::theliaEscape($_smarty_tpl->tpl_vars['lang_code']->value,$_smarty_tpl);?>
@@ -143,7 +144,7 @@ $_smarty_tpl->tpl_vars['breadcrumb']->_loop = true;
 
 
     
-<?php echo $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['hook'][0][0]->processHookFunction(array('name'=>"home.stylesheet"),$_smarty_tpl);?>
+<?php echo $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['hook'][0][0]->processHookFunction(array('name'=>"login.stylesheet"),$_smarty_tpl);?>
 
 
 
@@ -187,7 +188,7 @@ $_smarty_tpl->tpl_vars['breadcrumb']->_loop = true;
     <?php echo $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['hook'][0][0]->processHookFunction(array('name'=>"main.head-bottom"),$_smarty_tpl);?>
 
 </head>
-<body class="page-home" itemscope itemtype="http://schema.org/WebPage">
+<body class="page-login" itemscope itemtype="http://schema.org/WebPage">
     <?php echo $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['hook'][0][0]->processHookFunction(array('name'=>"main.body-top"),$_smarty_tpl);?>
 
 
@@ -238,10 +239,10 @@ $_smarty_tpl->tpl_vars['breadcrumb']->_loop = true;
 " title="<?php echo TheliaSmarty\Template\SmartyParser::theliaEscape($_smarty_tpl->tpl_vars['store_name']->value,$_smarty_tpl);?>
 ">
                             <?php ob_start();?><?php echo $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['image'][0][0]->functionImage(array('file'=>'assets/dist/img/logo.png','failsafe'=>true),$_smarty_tpl);?>
-<?php $_tmp8=ob_get_clean();?><?php $_smarty_tpl->tpl_vars['image'] = new Smarty_variable($_tmp8, null, 0);?>
+<?php $_tmp9=ob_get_clean();?><?php $_smarty_tpl->tpl_vars['image'] = new Smarty_variable($_tmp9, null, 0);?>
                             <?php if ($_smarty_tpl->tpl_vars['image']->value==null) {?>
                                 <?php ob_start();?><?php echo $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['image'][0][0]->functionImage(array('file'=>'assets/dist/img/logo.gif','failsafe'=>true),$_smarty_tpl);?>
-<?php $_tmp9=ob_get_clean();?><?php $_smarty_tpl->tpl_vars['image'] = new Smarty_variable($_tmp9, null, 0);?>
+<?php $_tmp10=ob_get_clean();?><?php $_smarty_tpl->tpl_vars['image'] = new Smarty_variable($_tmp10, null, 0);?>
                             <?php }?>
                             <img src="<?php echo TheliaSmarty\Template\SmartyParser::theliaEscape($_smarty_tpl->tpl_vars['image']->value,$_smarty_tpl);?>
 " alt="<?php echo TheliaSmarty\Template\SmartyParser::theliaEscape($_smarty_tpl->tpl_vars['store_name']->value,$_smarty_tpl);?>
@@ -261,9 +262,156 @@ $_smarty_tpl->tpl_vars['breadcrumb']->_loop = true;
             <div class="container">
                 <?php echo $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['hook'][0][0]->processHookFunction(array('name'=>"main.content-top"),$_smarty_tpl);?>
 
-                
+                <?php echo $_smarty_tpl->getSubTemplate ("misc/breadcrumb.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
+
                 <div id="content">
-    <?php echo $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['hook'][0][0]->processHookFunction(array('name'=>"home.body"),$_smarty_tpl);?>
+
+    
+    <?php echo $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['set_previous_url'][0][0]->setPreviousUrlFunction(array('ignore_current'=>"1"),$_smarty_tpl);?>
+
+
+    <?php echo $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['hook'][0][0]->processHookFunction(array('name'=>"login.top"),$_smarty_tpl);?>
+
+    <div class="main">
+        <?php echo $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['hook'][0][0]->processHookFunction(array('name'=>"login.main-top"),$_smarty_tpl);?>
+
+        <article class="col-main" role="main" aria-labelledby="main-label">
+            <h1 id="main-label" class="page-header"><?php echo $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['intl'][0][0]->translate(array('l'=>"Login"),$_smarty_tpl);?>
+</h1>
+            <?php $_smarty_tpl->smarty->_tag_stack[] = array('form', array('name'=>"thelia.front.customer.login")); $_block_repeat=true; echo $_smarty_tpl->smarty->registered_plugins['block']['form'][0][0]->generateForm(array('name'=>"thelia.front.customer.login"), null, $_smarty_tpl, $_block_repeat);while ($_block_repeat) { ob_start();?>
+
+            <form id="form-login" action="<?php echo $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['url'][0][0]->generateUrlFunction(array('path'=>"/login"),$_smarty_tpl);?>
+" method="post" <?php echo $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['form_enctype'][0][0]->formEnctype(array(),$_smarty_tpl);?>
+ novalidate>
+                <?php if ($_smarty_tpl->tpl_vars['form_error']->value) {?><div class="alert alert-danger"><?php echo TheliaSmarty\Template\SmartyParser::theliaEscape($_smarty_tpl->tpl_vars['form_error_message']->value,$_smarty_tpl);?>
+</div><?php }?>
+                <?php $_smarty_tpl->smarty->_tag_stack[] = array('form_field', array('field'=>'success_url')); $_block_repeat=true; echo $_smarty_tpl->smarty->registered_plugins['block']['form_field'][0][0]->renderFormField(array('field'=>'success_url'), null, $_smarty_tpl, $_block_repeat);while ($_block_repeat) { ob_start();?>
+
+                    <input type="hidden" name="<?php echo TheliaSmarty\Template\SmartyParser::theliaEscape($_smarty_tpl->tpl_vars['name']->value,$_smarty_tpl);?>
+" value="<?php echo $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['navigate'][0][0]->navigateToUrlFunction(array('to'=>"previous"),$_smarty_tpl);?>
+"> 
+                <?php $_block_content = ob_get_clean(); $_block_repeat=false; echo $_smarty_tpl->smarty->registered_plugins['block']['form_field'][0][0]->renderFormField(array('field'=>'success_url'), $_block_content, $_smarty_tpl, $_block_repeat); } array_pop($_smarty_tpl->smarty->_tag_stack);?>
+
+
+                <?php $_smarty_tpl->smarty->_tag_stack[] = array('form_field', array('field'=>'error_message')); $_block_repeat=true; echo $_smarty_tpl->smarty->registered_plugins['block']['form_field'][0][0]->renderFormField(array('field'=>'error_message'), null, $_smarty_tpl, $_block_repeat);while ($_block_repeat) { ob_start();?>
+
+                    <input type="hidden" name="<?php echo TheliaSmarty\Template\SmartyParser::theliaEscape($_smarty_tpl->tpl_vars['name']->value,$_smarty_tpl);?>
+" value="<?php echo $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['intl'][0][0]->translate(array('l'=>"missing or invalid data"),$_smarty_tpl);?>
+"> 
+                <?php $_block_content = ob_get_clean(); $_block_repeat=false; echo $_smarty_tpl->smarty->registered_plugins['block']['form_field'][0][0]->renderFormField(array('field'=>'error_message'), $_block_content, $_smarty_tpl, $_block_repeat); } array_pop($_smarty_tpl->smarty->_tag_stack);?>
+
+                <?php echo $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['form_hidden_fields'][0][0]->renderHiddenFormField(array(),$_smarty_tpl);?>
+
+                <?php echo $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['hook'][0][0]->processHookFunction(array('name'=>"login.form-top"),$_smarty_tpl);?>
+
+                <fieldset>
+                    <?php $_smarty_tpl->smarty->_tag_stack[] = array('form_field', array('field'=>"email")); $_block_repeat=true; echo $_smarty_tpl->smarty->registered_plugins['block']['form_field'][0][0]->renderFormField(array('field'=>"email"), null, $_smarty_tpl, $_block_repeat);while ($_block_repeat) { ob_start();?>
+
+                        <div class="form-group group-email<?php if ($_smarty_tpl->tpl_vars['error']->value) {?> has-error<?php }?>">
+                            <label for="<?php echo TheliaSmarty\Template\SmartyParser::theliaEscape($_smarty_tpl->tpl_vars['label_attr']->value['for'],$_smarty_tpl);?>
+"><?php echo TheliaSmarty\Template\SmartyParser::theliaEscape($_smarty_tpl->tpl_vars['label']->value,$_smarty_tpl);?>
+</label>
+                            <div class="control-input">
+                            <input type="email" name="<?php echo TheliaSmarty\Template\SmartyParser::theliaEscape($_smarty_tpl->tpl_vars['name']->value,$_smarty_tpl);?>
+" id="<?php echo TheliaSmarty\Template\SmartyParser::theliaEscape($_smarty_tpl->tpl_vars['label_attr']->value['for'],$_smarty_tpl);?>
+" value="<?php echo TheliaSmarty\Template\SmartyParser::theliaEscape($_smarty_tpl->tpl_vars['value']->value,$_smarty_tpl);?>
+" class="form-control input-sm" maxlength="255" <?php echo TheliaSmarty\Template\SmartyParser::theliaEscape($_smarty_tpl->tpl_vars['attr']->value,$_smarty_tpl);?>
+ <?php if ($_smarty_tpl->tpl_vars['required']->value) {?>aria-required="true" required<?php }?><?php if (!$_smarty_tpl->tpl_vars['value']->value||$_smarty_tpl->tpl_vars['error']->value) {?> autofocus<?php }?>>
+                            <?php if ($_smarty_tpl->tpl_vars['error']->value) {?>
+                                <span class="help-block"><?php echo TheliaSmarty\Template\SmartyParser::theliaEscape($_smarty_tpl->tpl_vars['message']->value,$_smarty_tpl);?>
+</span>
+                                <?php $_smarty_tpl->tpl_vars["error_focus"] = new Smarty_variable("true", null, 0);?>
+                            <?php } elseif (!$_smarty_tpl->tpl_vars['value']->value) {?>
+                                <?php $_smarty_tpl->tpl_vars["error_focus"] = new Smarty_variable("true", null, 0);?>
+                            <?php }?>
+                            </div>
+                        </div>
+                    <?php $_block_content = ob_get_clean(); $_block_repeat=false; echo $_smarty_tpl->smarty->registered_plugins['block']['form_field'][0][0]->renderFormField(array('field'=>"email"), $_block_content, $_smarty_tpl, $_block_repeat); } array_pop($_smarty_tpl->smarty->_tag_stack);?>
+
+
+                    <fieldset>
+                        <?php $_smarty_tpl->smarty->_tag_stack[] = array('form_field', array('field'=>"account")); $_block_repeat=true; echo $_smarty_tpl->smarty->registered_plugins['block']['form_field'][0][0]->renderFormField(array('field'=>"account"), null, $_smarty_tpl, $_block_repeat);while ($_block_repeat) { ob_start();?>
+
+                        <legend><?php echo $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['intl'][0][0]->translate(array('l'=>"Do you have an account?"),$_smarty_tpl);?>
+</legend>
+                            <?php  $_smarty_tpl->tpl_vars['choice'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['choice']->_loop = false;
+ $_from = $_smarty_tpl->tpl_vars['choices']->value; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
+foreach ($_from as $_smarty_tpl->tpl_vars['choice']->key => $_smarty_tpl->tpl_vars['choice']->value) {
+$_smarty_tpl->tpl_vars['choice']->_loop = true;
+?>
+                            <div class="radio radio-account<?php echo TheliaSmarty\Template\SmartyParser::theliaEscape($_smarty_tpl->tpl_vars['choice']->value->value,$_smarty_tpl);?>
+">
+                                <label for="<?php echo TheliaSmarty\Template\SmartyParser::theliaEscape($_smarty_tpl->tpl_vars['label_attr']->value['for'],$_smarty_tpl);?>
+<?php echo TheliaSmarty\Template\SmartyParser::theliaEscape($_smarty_tpl->tpl_vars['choice']->value->value,$_smarty_tpl);?>
+">
+                                    <input type="radio" name="<?php echo TheliaSmarty\Template\SmartyParser::theliaEscape($_smarty_tpl->tpl_vars['name']->value,$_smarty_tpl);?>
+" id="<?php echo TheliaSmarty\Template\SmartyParser::theliaEscape($_smarty_tpl->tpl_vars['label_attr']->value['for'],$_smarty_tpl);?>
+<?php echo TheliaSmarty\Template\SmartyParser::theliaEscape($_smarty_tpl->tpl_vars['choice']->value->value,$_smarty_tpl);?>
+" data-toggle="password" value="<?php echo TheliaSmarty\Template\SmartyParser::theliaEscape($_smarty_tpl->tpl_vars['choice']->value->value,$_smarty_tpl);?>
+"<?php ob_start();?><?php echo TheliaSmarty\Template\SmartyParser::theliaEscape($_smarty_tpl->tpl_vars['choice']->value->value,$_smarty_tpl);?>
+<?php $_tmp11=ob_get_clean();?><?php if ($_smarty_tpl->tpl_vars['value']->value===$_tmp11) {?> checked<?php }?>> <?php echo TheliaSmarty\Template\SmartyParser::theliaEscape($_smarty_tpl->tpl_vars['choice']->value->label,$_smarty_tpl);?>
+
+                                </label>
+                            </div>
+                            <?php } ?>
+                        <?php $_block_content = ob_get_clean(); $_block_repeat=false; echo $_smarty_tpl->smarty->registered_plugins['block']['form_field'][0][0]->renderFormField(array('field'=>"account"), $_block_content, $_smarty_tpl, $_block_repeat); } array_pop($_smarty_tpl->smarty->_tag_stack);?>
+
+                        <div class="group-password">
+                            <?php $_smarty_tpl->smarty->_tag_stack[] = array('form_field', array('field'=>"password")); $_block_repeat=true; echo $_smarty_tpl->smarty->registered_plugins['block']['form_field'][0][0]->renderFormField(array('field'=>"password"), null, $_smarty_tpl, $_block_repeat);while ($_block_repeat) { ob_start();?>
+
+                            <div class="form-group <?php if ($_smarty_tpl->tpl_vars['error']->value) {?> has-error<?php }?>">
+                                <label for="<?php echo TheliaSmarty\Template\SmartyParser::theliaEscape($_smarty_tpl->tpl_vars['label_attr']->value['for'],$_smarty_tpl);?>
+" class="sr-only"><?php echo TheliaSmarty\Template\SmartyParser::theliaEscape($_smarty_tpl->tpl_vars['label']->value,$_smarty_tpl);?>
+</label>
+                                <div class="control-input">
+                                    <input type="password" name="<?php echo TheliaSmarty\Template\SmartyParser::theliaEscape($_smarty_tpl->tpl_vars['name']->value,$_smarty_tpl);?>
+" id="<?php echo TheliaSmarty\Template\SmartyParser::theliaEscape($_smarty_tpl->tpl_vars['label_attr']->value['for'],$_smarty_tpl);?>
+" class="form-control input-sm" maxlength="255" autocomplete="off"<?php if (!isset($_smarty_tpl->tpl_vars['error_focus']->value)) {?> autofocus<?php }?>>
+                                    <?php if ($_smarty_tpl->tpl_vars['error']->value) {?>
+                                        <span class="help-block"><?php echo TheliaSmarty\Template\SmartyParser::theliaEscape($_smarty_tpl->tpl_vars['message']->value,$_smarty_tpl);?>
+</span>
+                                    <?php }?>
+                                </div>
+                                <span class="help-block">
+                                    <a href="<?php echo $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['url'][0][0]->generateUrlFunction(array('path'=>"/password"),$_smarty_tpl);?>
+" data-toggle="confirmation" class="forgot-password"><?php echo $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['intl'][0][0]->translate(array('l'=>"Forgot your Password?"),$_smarty_tpl);?>
+</a>
+                                </span>
+                            </div>
+                            <?php $_block_content = ob_get_clean(); $_block_repeat=false; echo $_smarty_tpl->smarty->registered_plugins['block']['form_field'][0][0]->renderFormField(array('field'=>"password"), $_block_content, $_smarty_tpl, $_block_repeat); } array_pop($_smarty_tpl->smarty->_tag_stack);?>
+
+                            <?php $_smarty_tpl->smarty->_tag_stack[] = array('form_field', array('field'=>'remember_me')); $_block_repeat=true; echo $_smarty_tpl->smarty->registered_plugins['block']['form_field'][0][0]->renderFormField(array('field'=>'remember_me'), null, $_smarty_tpl, $_block_repeat);while ($_block_repeat) { ob_start();?>
+
+                            <div class="checkbox pull-right">
+                                <label for="<?php echo TheliaSmarty\Template\SmartyParser::theliaEscape($_smarty_tpl->tpl_vars['label_attr']->value['for'],$_smarty_tpl);?>
+">
+                                    <input type="checkbox" name="<?php echo TheliaSmarty\Template\SmartyParser::theliaEscape($_smarty_tpl->tpl_vars['name']->value,$_smarty_tpl);?>
+" id="<?php echo TheliaSmarty\Template\SmartyParser::theliaEscape($_smarty_tpl->tpl_vars['label_attr']->value['for'],$_smarty_tpl);?>
+" value="<?php echo TheliaSmarty\Template\SmartyParser::theliaEscape($_smarty_tpl->tpl_vars['value']->value,$_smarty_tpl);?>
+" <?php echo TheliaSmarty\Template\SmartyParser::theliaEscape($_smarty_tpl->tpl_vars['attr']->value,$_smarty_tpl);?>
+ <?php if ($_smarty_tpl->tpl_vars['options']->value['checked']) {?>checked="checked"<?php }?>/> <?php echo TheliaSmarty\Template\SmartyParser::theliaEscape($_smarty_tpl->tpl_vars['label']->value,$_smarty_tpl);?>
+
+                                </label>
+                            </div>
+                            <?php $_block_content = ob_get_clean(); $_block_repeat=false; echo $_smarty_tpl->smarty->registered_plugins['block']['form_field'][0][0]->renderFormField(array('field'=>'remember_me'), $_block_content, $_smarty_tpl, $_block_repeat); } array_pop($_smarty_tpl->smarty->_tag_stack);?>
+
+                        </div>
+                    </fieldset>
+                </fieldset>
+                <?php echo $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['hook'][0][0]->processHookFunction(array('name'=>"login.form-bottom"),$_smarty_tpl);?>
+
+                <div class="group-btn">
+                    <button type="submit" class="btn btn-primary"><i class="fa fa-chevron-right"></i> <?php echo $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['intl'][0][0]->translate(array('l'=>"Next"),$_smarty_tpl);?>
+</button>
+                </div>
+            </form>
+            <?php $_block_content = ob_get_clean(); $_block_repeat=false; echo $_smarty_tpl->smarty->registered_plugins['block']['form'][0][0]->generateForm(array('name'=>"thelia.front.customer.login"), $_block_content, $_smarty_tpl, $_block_repeat); } array_pop($_smarty_tpl->smarty->_tag_stack);?>
+
+        </article>
+        <?php echo $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['hook'][0][0]->processHookFunction(array('name'=>"login.main-bottom"),$_smarty_tpl);?>
+
+    </div>
+    <?php echo $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['hook'][0][0]->processHookFunction(array('name'=>"login.bottom"),$_smarty_tpl);?>
 
 </div>
                 <?php echo $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['hook'][0][0]->processHookFunction(array('name'=>"main.content-bottom"),$_smarty_tpl);?>
@@ -373,7 +521,7 @@ $_smarty_tpl->tpl_vars['breadcrumb']->_loop = true;
                             <nav class="nav-footer col-lg-9" role="navigation">
                                 <ul class="list-unstyled list-inline">
                                     <?php ob_start();?><?php echo $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['config'][0][0]->configDataAccess(array('key'=>"information_folder_id"),$_smarty_tpl);?>
-<?php $_tmp10=ob_get_clean();?><?php $_smarty_tpl->tpl_vars['folder_information'] = new Smarty_variable($_tmp10, null, 0);?>
+<?php $_tmp12=ob_get_clean();?><?php $_smarty_tpl->tpl_vars['folder_information'] = new Smarty_variable($_tmp12, null, 0);?>
                                     <?php if ($_smarty_tpl->tpl_vars['folder_information']->value) {?>
                                         <?php $_smarty_tpl->smarty->_tag_stack[] = array('loop', array('name'=>"footer_links",'type'=>"content",'folder'=>$_smarty_tpl->tpl_vars['folder_information']->value)); $_block_repeat=true; echo $_smarty_tpl->smarty->registered_plugins['block']['loop'][0][0]->theliaLoop(array('name'=>"footer_links",'type'=>"content",'folder'=>$_smarty_tpl->tpl_vars['folder_information']->value), null, $_smarty_tpl, $_block_repeat);while ($_block_repeat) { ob_start();?>
 
@@ -441,7 +589,7 @@ $_smarty_tpl->tpl_vars['breadcrumb']->_loop = true;
 
 
     
-<?php echo $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['hook'][0][0]->processHookFunction(array('name'=>"home.after-javascript-include"),$_smarty_tpl);?>
+<?php echo $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['hook'][0][0]->processHookFunction(array('name'=>"login.after-javascript-include"),$_smarty_tpl);?>
 
 
 
@@ -455,7 +603,7 @@ $_smarty_tpl->tpl_vars['breadcrumb']->_loop = true;
 ";
     </script>
     
-<?php echo $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['hook'][0][0]->processHookFunction(array('name'=>"home.javascript-initialization"),$_smarty_tpl);?>
+<?php echo $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['hook'][0][0]->processHookFunction(array('name'=>"login.javascript-initialization"),$_smarty_tpl);?>
 
 
 

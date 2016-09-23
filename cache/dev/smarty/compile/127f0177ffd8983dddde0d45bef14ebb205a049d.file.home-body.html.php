@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.20, created on 2016-08-30 09:26:40
+<?php /* Smarty version Smarty-3.1.20, created on 2016-09-23 09:46:45
          compiled from "/var/www/html/Mythelia/local/modules/HookProductsNew/templates/frontOffice/default/home-body.html" */ ?>
-<?php /*%%SmartyHeaderCode:169724821457c53530bf8de2-01117845%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:185306161757e4dde57f5026-89191579%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '169724821457c53530bf8de2-01117845',
+  'nocache_hash' => '185306161757e4dde57f5026-89191579',
   'function' => 
   array (
   ),
@@ -29,9 +29,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.20',
-  'unifunc' => 'content_57c53530c44a21_78748993',
+  'unifunc' => 'content_57e4dde5861bf4_11077734',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_57c53530c44a21_78748993')) {function content_57c53530c44a21_78748993($_smarty_tpl) {?><?php $_smarty_tpl->smarty->_tag_stack[] = array('ifloop', array('rel'=>"product_new")); $_block_repeat=true; echo $_smarty_tpl->smarty->registered_plugins['block']['ifloop'][0][0]->theliaIfLoop(array('rel'=>"product_new"), null, $_smarty_tpl, $_block_repeat);while ($_block_repeat) { ob_start();?>
+<?php if ($_valid && !is_callable('content_57e4dde5861bf4_11077734')) {function content_57e4dde5861bf4_11077734($_smarty_tpl) {?><?php $_smarty_tpl->smarty->_tag_stack[] = array('ifloop', array('rel'=>"product_new")); $_block_repeat=true; echo $_smarty_tpl->smarty->registered_plugins['block']['ifloop'][0][0]->theliaIfLoop(array('rel'=>"product_new"), null, $_smarty_tpl, $_block_repeat);while ($_block_repeat) { ob_start();?>
 
 <section id="products-new">
     <div class="products-heading">

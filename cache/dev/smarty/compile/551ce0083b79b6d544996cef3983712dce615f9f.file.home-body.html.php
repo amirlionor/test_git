@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.20, created on 2016-08-30 09:26:40
+<?php /* Smarty version Smarty-3.1.20, created on 2016-09-23 09:46:45
          compiled from "/var/www/html/Mythelia/local/modules/HookProductsOffer/templates/frontOffice/default/home-body.html" */ ?>
-<?php /*%%SmartyHeaderCode:129405668757c53530cbec42-67889282%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:174467989957e4dde58e2d45-86217452%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '129405668757c53530cbec42-67889282',
+  'nocache_hash' => '174467989957e4dde58e2d45-86217452',
   'function' => 
   array (
   ),
@@ -23,9 +23,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.20',
-  'unifunc' => 'content_57c53530cfd418_85218275',
+  'unifunc' => 'content_57e4dde5922111_39369391',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_57c53530cfd418_85218275')) {function content_57c53530cfd418_85218275($_smarty_tpl) {?><?php $_smarty_tpl->smarty->_tag_stack[] = array('ifloop', array('rel'=>"current-sales")); $_block_repeat=true; echo $_smarty_tpl->smarty->registered_plugins['block']['ifloop'][0][0]->theliaIfLoop(array('rel'=>"current-sales"), null, $_smarty_tpl, $_block_repeat);while ($_block_repeat) { ob_start();?>
+<?php if ($_valid && !is_callable('content_57e4dde5922111_39369391')) {function content_57e4dde5922111_39369391($_smarty_tpl) {?><?php $_smarty_tpl->smarty->_tag_stack[] = array('ifloop', array('rel'=>"current-sales")); $_block_repeat=true; echo $_smarty_tpl->smarty->registered_plugins['block']['ifloop'][0][0]->theliaIfLoop(array('rel'=>"current-sales"), null, $_smarty_tpl, $_block_repeat);while ($_block_repeat) { ob_start();?>
 
     <section id="products-offer" class="grid">
     <?php $_smarty_tpl->smarty->_tag_stack[] = array('loop', array('name'=>"current-sales",'type'=>"sale",'limit'=>"2")); $_block_repeat=true; echo $_smarty_tpl->smarty->registered_plugins['block']['loop'][0][0]->theliaLoop(array('name'=>"current-sales",'type'=>"sale",'limit'=>"2"), null, $_smarty_tpl, $_block_repeat);while ($_block_repeat) { ob_start();?>

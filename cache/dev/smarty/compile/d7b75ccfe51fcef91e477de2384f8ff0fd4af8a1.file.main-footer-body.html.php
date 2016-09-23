@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.20, created on 2016-08-30 09:26:40
+<?php /* Smarty version Smarty-3.1.20, created on 2016-09-23 09:46:45
          compiled from "/var/www/html/Mythelia/local/modules/HookContact/templates/frontOffice/default/main-footer-body.html" */ ?>
-<?php /*%%SmartyHeaderCode:9720779357c53530ee2ab2-77192916%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:182822070257e4dde5a72455-64460935%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '9720779357c53530ee2ab2-77192916',
+  'nocache_hash' => '182822070257e4dde5a72455-64460935',
   'function' => 
   array (
   ),
@@ -22,9 +22,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.20',
-  'unifunc' => 'content_57c53530ef6f19_79089681',
+  'unifunc' => 'content_57e4dde5a9f861_10122171',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_57c53530ef6f19_79089681')) {function content_57c53530ef6f19_79089681($_smarty_tpl) {?><div itemscope itemtype="http://schema.org/Organization">
+<?php if ($_valid && !is_callable('content_57e4dde5a9f861_10122171')) {function content_57e4dde5a9f861_10122171($_smarty_tpl) {?><div itemscope itemtype="http://schema.org/Organization">
     <meta itemprop="name" content="<?php echo TheliaSmarty\Template\SmartyParser::theliaEscape($_smarty_tpl->tpl_vars['store_name']->value,$_smarty_tpl);?>
 ">
     <ul>

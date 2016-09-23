@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.20, created on 2016-08-30 09:26:41
+<?php /* Smarty version Smarty-3.1.20, created on 2016-09-23 09:46:45
          compiled from "/var/www/html/Mythelia/local/modules/HookNavigation/templates/frontOffice/default/main-footer-bottom.html" */ ?>
-<?php /*%%SmartyHeaderCode:11910611857c5353110f012-69615771%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:141612643557e4dde5c74c33-06589448%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '11910611857c5353110f012-69615771',
+  'nocache_hash' => '141612643557e4dde5c74c33-06589448',
   'function' => 
   array (
   ),
@@ -23,9 +23,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.20',
-  'unifunc' => 'content_57c53531115657_64058592',
+  'unifunc' => 'content_57e4dde5c82927_32056942',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_57c53531115657_64058592')) {function content_57c53531115657_64058592($_smarty_tpl) {?><nav class="nav-footer" role="navigation">
+<?php if ($_valid && !is_callable('content_57e4dde5c82927_32056942')) {function content_57e4dde5c82927_32056942($_smarty_tpl) {?><nav class="nav-footer" role="navigation">
     <ul class="list-unstyled list-inline">
         <?php $_smarty_tpl->smarty->_tag_stack[] = array('loop', array('name'=>"footer_links",'type'=>"content",'folder'=>$_smarty_tpl->tpl_vars['bottomFolderId']->value,'limit'=>4)); $_block_repeat=true; echo $_smarty_tpl->smarty->registered_plugins['block']['loop'][0][0]->theliaLoop(array('name'=>"footer_links",'type'=>"content",'folder'=>$_smarty_tpl->tpl_vars['bottomFolderId']->value,'limit'=>4), null, $_smarty_tpl, $_block_repeat);while ($_block_repeat) { ob_start();?>
 

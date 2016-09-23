@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.20, created on 2016-08-30 09:26:40
+<?php /* Smarty version Smarty-3.1.20, created on 2016-09-23 09:46:45
          compiled from "/var/www/html/Mythelia/local/modules/HookLang/templates/frontOffice/default/main-navbar-secondary.html" */ ?>
-<?php /*%%SmartyHeaderCode:204136148357c535308ffa62-03418482%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:119362588557e4dde556ea24-22249143%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '204136148357c535308ffa62-03418482',
+  'nocache_hash' => '119362588557e4dde556ea24-22249143',
   'function' => 
   array (
   ),
@@ -22,9 +22,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.20',
-  'unifunc' => 'content_57c53530923d85_84109260',
+  'unifunc' => 'content_57e4dde55819d3_77218321',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_57c53530923d85_84109260')) {function content_57c53530923d85_84109260($_smarty_tpl) {?><ul class="nav navbar-nav navbar-lang navbar-left">
+<?php if ($_valid && !is_callable('content_57e4dde55819d3_77218321')) {function content_57e4dde55819d3_77218321($_smarty_tpl) {?><ul class="nav navbar-nav navbar-lang navbar-left">
     <li class="dropdown">
         <a href="<?php echo $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['url'][0][0]->generateUrlFunction(array('path'=>"/login"),$_smarty_tpl);?>
 " class="language-label dropdown-toggle" data-toggle="dropdown"><?php echo $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['lang'][0][0]->langDataAccess(array('attr'=>"title"),$_smarty_tpl);?>

@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.20, created on 2016-08-30 09:26:40
+<?php /* Smarty version Smarty-3.1.20, created on 2016-09-23 09:46:45
          compiled from "/var/www/html/Mythelia/local/modules/HookSearch/templates/frontOffice/default/main-navbar-secondary.html" */ ?>
-<?php /*%%SmartyHeaderCode:114970248757c5353093be83-57610991%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:23048504057e4dde55944c1-97052982%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,15 +11,15 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '114970248757c5353093be83-57610991',
+  'nocache_hash' => '23048504057e4dde55944c1-97052982',
   'function' => 
   array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.20',
-  'unifunc' => 'content_57c5353095fcc6_79502612',
+  'unifunc' => 'content_57e4dde55a3fe0_65731774',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_57c5353095fcc6_79502612')) {function content_57c5353095fcc6_79502612($_smarty_tpl) {?><div class="search-container navbar-form navbar-left">
+<?php if ($_valid && !is_callable('content_57e4dde55a3fe0_65731774')) {function content_57e4dde55a3fe0_65731774($_smarty_tpl) {?><div class="search-container navbar-form navbar-left">
     <form id="form-search" action="<?php echo $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['url'][0][0]->generateUrlFunction(array('path'=>"/search"),$_smarty_tpl);?>
 " method="get" role="search" aria-labelledby="search-label">
         <label id="search-label" class="sr-only" for="q"><?php echo $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['intl'][0][0]->translate(array('l'=>"Search a product",'d'=>"hooksearch.fo.default"),$_smarty_tpl);?>
